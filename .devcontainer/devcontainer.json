@@ -1,0 +1,29 @@
+{
+  "name": "ollama-webui-docker-compose",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "app",
+  "workspaceFolder": "/code",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
+        "ms-vscode.vscode-typescript-tslint-plugin",
+        "ms-vscode.vscode-typescript-next",
+        "msjsdiag.debugger-for-chrome",
+        "oderwat.indent-rainbow",
+        "redhat.vscode-yaml",
+        "waderyan.gitblame",
+        "yzhang.markdown-all-in-one",
+        "zhuangtongfa.material-theme",
+        "zhuangtongfa.material-theme-icons",
+        "copilot.copilot"
+      ],
+      "settings": {
+        "editor.formatOnSave": true
+      }
+    }
+  }
+}
